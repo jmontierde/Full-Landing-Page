@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+html, body {
+      height: 100%;
+      margin: 0;
+      /* box-sizing: border-box; */
+      font-family: 'Lato', sans-serif;
+      line-height: 1.6;
+}
+
+
+#showcase {
+      background-image: url(./landingbg.jpg);
+
+
+      /* Full height */
+      height: 100%;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: multiply;
+      background-color: rgb(240, 192, 145);
+}
+
+.heading-page {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+}
+
+.tittle-beach {
+      font-size: 3rem;
+      font-weight: bolder;
+      color: rgb(255, 255, 255);
+}
+.beach-description {
+      position:relative;
+      bottom: 20px;
+      color: rgb(248, 228, 228);
+      font-size: 20px;
+      /* text-overflow: ellipsis;
+      white-space: nowrap; */
+}
+
+#showcase .btn {
+      /* width: 150px;
+      height: 50px; */
+      /* border:none;
+      border:solid 2px black;
+      border-radius: 5px; */
+      background: rgba(255, 255, 255,0);
+      border: none;
+      border:solid 1.3px rgb(68, 65, 65);
+      /* font-size: 25px; */
+      padding: 12px;
+      font-size: 1.1rem;
+      border-radius: 12px;
+      color:#fff;
+}
+#showcase .btn:hover{
+      background:#6b3200;
+      color:#fff;
+    
+    }
+
+/* CommentA */
+p {
+  
+      font-size: 18px;
+      text-align: center;
+      justify-content: center;
+}
+
+
+#comment-a {
+      background-color: #926239;
+      padding: 20px 20px 20px 20px;
+       color: #fff;
+}
+
+#comment-b { 
+      background-color: #fff;
+      padding: 20px 20px 20px 20px;
+      color: #926239;
+}
+
+.display-one {
+      background-color: #926239;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+}
+.display-two {
+      background-color: #fff;
+      color: #926239;
+      padding: 10px 10px 10px 10px;
+}
+.display-three {
+      background-color: #926239;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+    
+}
+
+#three-in-one {
+      display: flex;      
+}
+
+
+
+
+      
